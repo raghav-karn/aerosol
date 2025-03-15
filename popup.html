@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aerosol</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aerosol</h1>
+
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button id="searchButton">Search</button>
+        </div>
+
+        <div class="results-container" id="resultsContainer">
+            <div class="loader" id="loader"></div>
+            <div class="error" id="error"></div>
+
+            <div class="results" id="results">
+                <div class="city-name" id="cityName"></div>
+                <div class="aqi-container">
+                    <div class="api-label">AQI:</div>
+                    <div class="aqi-value" id="aqiValue"></div>
+                </div>
+                <div class="cigarettes-container">
+                    <div class="cigarettes-label">Equivalent Cigarettes:</div>
+                    <div class="cigarettes-value" id="cigarettesValue"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
