@@ -1,6 +1,6 @@
 # 🌬️ Aerosol 🚬
 
-![Aerosol Banner](/api/placeholder/950/300)
+![Aerosol Icon](icon128.png)
 
 **Aerosol** is a Chrome extension that visualizes air pollution in a way everyone understands - cigarettes!
 
@@ -14,7 +14,7 @@ Ever wondered how bad the air pollution in your city really is? Air Quality Inde
 
 ## 📸 Preview
 ![Preview1](images/preview1.png)
-![Preview1](images/preview1.png)
+![Preview2](images/preview2.png)
 
 ## ✨ Features
 
@@ -97,7 +97,7 @@ Aerosol works in any location covered by our air quality data providers, which i
 As often OpenWeatherMaps wills to update it.
 
 ## 🤝 Contributing & Feedbacks
-Your feedback and help matters! If you have any feature suggestion or have found a bug, please raise the issue on this repo. Also, Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines. All contributions are welcome!
+Your feedback and help matters! If you have any feature suggestion or have found a bug, please raise the issue on this repo. Also, Check out our [CONTRIBUTING.md](https://github.com/raghav-karn/.github/blob/main/CONTRIBUTING.md) for detailed guidelines. All contributions are welcome!
 
 ## Credits
 
