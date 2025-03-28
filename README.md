@@ -1,6 +1,6 @@
 # 🌬️ Aerosol 🚬
 
-![Aerosol Icon](icon128.png)
+![Aerosol Icon](extension/icon128.png)
 
 **Aerosol** is a Chrome extension that visualizes air pollution in a way everyone understands - cigarettes!
 
