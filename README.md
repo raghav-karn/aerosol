@@ -4,8 +4,11 @@
 
 **Aerosol** is a Chrome extension that visualizes air pollution in a way everyone understands - cigarettes!
 
-> [!NOTE]
+> [!IMPORTANT]
 > Although AQI and Equivalent Cigarettes data gives a wider view, the reliability of data is up to OpenWeatherMap. There may be some degree of discrepancy and error when compared to other sources.
+
+> [!NOTE]
+> Visit [aerosol.raghavkarn.com](https://aerosol.raghavkarn.com) to learn more about Aerosol.
 
 
 ## 🤔 What's This All About?
@@ -24,7 +27,7 @@ Ever wondered how bad the air pollution in your city really is? Air Quality Inde
 
 ## 🚀 Installation
 
-1. Download the latest `aerosol.zip` from the `Releases` or directly from the repo.
+1. Download the latest .zip file from either the Releases, the `<version>.zip` file in the root of [the repo](https://github.com/raghav-karn/aerosol) or use the files in [`/extension`](https://github.com/raghav-karn/aerosol/tree/main/extension) folder of the repo.
 ![Step 1](images/dwd1.png)
 2. Unzip the file in a location of choice on your computer.
 ![Step 2](images/dwd2.png)
@@ -110,5 +113,6 @@ Your feedback and help matters! If you have any feature suggestion or have found
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-A [BrowserBuddy](https://browserbuddy.hackclub.com) project by [Raghav Karn](https://github.com/raghav-karn).
+Aerosol by [Raghav Karn](https://github.com/raghav-karn).
+- Extension made for [BrowserBuddy](https://browserbuddy.hackclub.com).
+- Website made for [Swirl](https://swirld.hackclub.com).
