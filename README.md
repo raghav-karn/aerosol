@@ -37,15 +37,6 @@ Ever wondered how bad the air pollution in your city really is? Air Quality Inde
 ![Step 4](images/dwd4.png)
 5. There you have it—Aerosol has been installed on your browser. Enjoy!
 
-
-## 🧠 The Science Behind It
-
-Aerosol uses peer-reviewed research from the University of California, Berkeley that established the relationship between PM2.5 exposure and cigarette smoking:
-
-> "One cigarette is equivalent to an air pollution PM2.5 of 22 μg/m³ for 24 hours"
-
-We use this formula along with current AQI readings to calculate your "cigarette exposure" from ambient air pollution.
-
 ## 💡 How to Use
 
 ### 1️⃣ Toggle the extension
@@ -57,47 +48,12 @@ We use this formula along with current AQI readings to calculate your "cigarette
 ### 3️⃣ View your 'Air Quality Index' and 'Equivalent Cigarettes'
 ![Step 3](images/step3.png)
 
-## 🌍 Locations with Highest Average "Cigarette Counts"
-
-| Rank | City | Country | Daily Cigarette Equivalent |
-|------|------|---------|----------------------------|
-| 1 | Delhi | India | 22.1 |
-| 2 | Lahore | Pakistan | 19.8 |
-| 3 | Dhaka | Bangladesh | 18.3 |
-| 4 | Beijing | China | 16.5 |
-| 5 | Jakarta | Indonesia | 14.2 |
-
-## 📈 Impact Visualization
-
-```
-Delhi       🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬 (22.1)
-Lahore      🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬 (19.8)
-Dhaka       🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬 (18.3)
-Beijing     🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬 (16.5)
-Jakarta     🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬🚬 (14.2)
-Los Angeles 🚬🚬🚬🚬 (4.3)
-New York    🚬🚬🚬 (3.1)
-London      🚬🚬 (2.4)
-Sydney      🚬 (1.2)
-```
-
 ## 🛠️ Made Using
 
 - 🌐 HTML
 - 🎨 CSS
 - 📊 JS
 - ☁  AQI data from [OpenWeatherMap](https://openweathermap.org)
-
-## 🙋‍♀️ FAQs
-
-### Is this scientifically accurate?
-I mean, if you trust Claude then yeah. The calculated data seems a bit off from what other calculators do (with an avg discrepancy of around 0.5 cigarettes). There is a discrepancy of 10-40 AQI too, when compared to other sources. This is also on Claude.
-
-### Does this work everywhere?
-Aerosol works in any location covered by our air quality data providers, which includes most major cities worldwide.
-
-### How often is the data updated?
-As often OpenWeatherMaps wills to update it.
 
 ## 🤝 Contributing & Feedbacks
 Your feedback and help matters! If you have any feature suggestion or have found a bug, please raise the issue on this repo. Also, Check out our [CONTRIBUTING.md](https://github.com/raghav-karn/.github/blob/main/CONTRIBUTING.md) for detailed guidelines. All contributions are welcome!
@@ -107,6 +63,7 @@ Your feedback and help matters! If you have any feature suggestion or have found
 - **OpenWeatherMap**'s API was used to provide data on AQI.
 - **Claude.ai** was partially used to write the code to help process the data abdnd convert the calculated AQI to Equivalent Cigarettes.
 - **Figma** was used to create the icons.
+- **Hack Club** funded Aerosol to get on Chrome Web Store.
 
 ## 📝 License
 
@@ -115,4 +72,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 Aerosol by [Raghav Karn](https://github.com/raghav-karn).
 - Extension made for [BrowserBuddy](https://browserbuddy.hackclub.com).
-- Website made for [Swirl](https://swirld.hackclub.com).
+- Website made for [Swirl](https://swirl.hackclub.com).
