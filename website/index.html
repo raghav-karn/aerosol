@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="../extension/icon128.png">
+    <title>Aerosol</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=smoking_rooms" />
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="../extension/icon128.png" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#features" class="nav__link">Features</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#instructions" class="nav__link">Instructions</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div>
+                    <img src="../images/preview1.png" alt="" class="home__img">
+                </div>
+                
+                <div class="home__data">
+                    <div class="home__header">
+                        <h2 class="home__subtitle" style="font-size: 5.5rem; color: #19112b;">Aerosol</h2>
+                    </div>
+
+                    <div class="home__footer">
+                        <h3 class="home__title-description">A FOSS Chrome extension by Raghav Karn</h3>
+                        <p class="home__description">Ever wondered how bad the air pollution in your city really is? Air Quality Index (AQI) numbers can be abstract and hard to grasp. <span style="font-family: 'Major Mono Display'; font-weight: 700;">Aerosol</span> translates these numbers into something more tangible - the equivalent number of cigarettes you're "smoking" just by breathing the air.
+                        </p>
+
+                        <a href="https://aerosol.raghavkarn.com/learn" class="button button--flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                            </svg>
+                            Learn more
+                        </a>
+                        <a href="../extension/popup.html" class="button button--flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cursor-fill" viewBox="0 0 16 16">
+                                <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"/>
+                              </svg>
+                            Try <span style="font-family: 'major mono display'; font-size: 0.8rem;">Aerosol</span> without installing
+                        </a>            
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section grid" id="features">
+            <h2 class="section__title">Features</h2>
+
+            <div class="features__container container grid">
+                <div class="features__content grid">
+                    <div class="features__data">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                        <h3 class="features__title">AQI Search</h3>
+                        <span class="features__subtitle">For your favorite cities</span>
+                    </div>
+
+                    <div class="features__data">
+                        <span class="material-symbols-outlined">
+                            smoking_rooms
+                        </span>                        
+                        <h3 class="features__title">Cigarettes Counter</h3>
+                        <span class="features__subtitle">AQI to Equivalent Ciggs</span>
+                    </div>
+
+                    <div class="features__data">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+                        </svg>                        
+                        <h3 class="features__title">Global Coverage</h3>
+                        <span class="features__subtitle">Cities around the globe</span>
+                    </div>
+
+                    <div class="features__data">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wind" viewBox="0 0 16 16">
+                            <path d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5m-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2M0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5"/>
+                        </svg>                        
+                        <h3 class="features__title">Simple and swift</h3>
+                        <span class="features__subtitle">Easy to quickly look up</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <img src="../images/preview2.png" alt="" class="features__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="instructions section" id="instructions" style="margin-top: -4rem;">
+            <div class="instructions__container container grid">
+                <div class="instructions__animate">
+                    <h2 class="instructions__title">Start Using<br> <span style="font-family: 'major mono display'; font-weight: 700;">Aerosol</span> Now!</h2>
+                    <p class="instructions__description">Read the instructions to download and learn how to use <span style="font-family: 'Major Mono Display'; font-weight: 700;">Aerosol</span>.</p>
+                    <a href="https://aerosol.raghavkarn.com/instructions" class="button button--flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                            <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                        </svg>
+                        Read instructions
+                    </a>
+                </div>
+
+                <img src="../extension/icon128.png" alt="" class="instructions__img" style="width: 200px; height: 200px;">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <span style="font-family: 'major mono display'; color: #b2aaf8; font-size: 3rem; margin-right: 5rem; margin-left: -5rem;">Aerosol <br> <span style="font-size: 1.1rem;">Raghav Karn — 2025</span></span>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="https://aerosol.raghavkarn.com" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://aerosol.raghavkarn.com/learn" class="footer__link">Learn more</a>
+                    </li>
+                    <li>
+                        <a href="https://aerosol.raghavkarn.com/instructions" class="footer__link">Instructions</a>
+                    </li>
+                    <li>
+                        <a href="https://aerosol.raghavkarn.com/" class="footer__link">Chrome Webstore (NA yet)</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+            </div>
+
+            <div class="footer__content">
+                <form action="" class="footer__form">
+                    <a href="https://github.com/raghav-karn/aerosol" target="_blank">
+                        <button class="button button--flex" style="background-color: #8f90e6; color: #2f3352; font-family: monospace;">
+                            <i class="ri-send-plane-line button__icon"></i> Visit the GitHub Repository
+                        </button>
+                    </a>    
+                </form>
+
+                <div class="footer__social">
+                    <a href="https://github.com/raghav-karn" target="_blank" class="footer__social-link">
+                        <i class="ri-github-fill" style="color: #2f3052;"></i>
+                    </a>
+                    <a href="mailto:contact@raghavkarn.com" target="_blank" class="footer__social-link">
+                        <i class="ri-mail-line" style="color: #312f52;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="src/js/script.js"></script>
+</body>
