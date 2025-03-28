@@ -101,7 +101,7 @@ img {
 
 .nav__toggle {
   font-size: 1.2rem;
-  color: #313144;
+  color: #465372;
   cursor: pointer;
 }
 
@@ -128,8 +128,7 @@ img {
   font-size: 1.25rem;
   text-transform: uppercase;
   font-weight: 600;
-  background: linear-gradient(hsl(206, 4%, 24%), hsl(206, 4%, 8%));
-  color: transparent;
+  color: #222c42;
   -webkit-background-clip: text;
   background-clip: text;
   transition: .4s;
@@ -313,7 +312,7 @@ img {
 
 .instructions__container {
   position: relative;
-  background-color: #7b81bb;
+  background-color: #647497;
   padding: 2rem 1.5rem;
   border-radius: .75rem;
 }
@@ -401,7 +400,7 @@ img {
   font-size: 1.125rem;
   font-weight: 500;
   margin-bottom: 1rem;
-  color: #7d86b9;
+  color: #8C9FC9;
 }
 
 .footer__links {
@@ -445,14 +444,14 @@ img {
 .footer__social-link {
   display: inline-flex;
   color: #333452;
-  background-color: #7393bd;
+  background-color: #8C9FC9;
   padding: .5rem;
   border-radius: .25rem;
   font-size: 1rem;
 }
 
 .footer__social-link:hover {
-  background-color: #55628d;
+  background-color: #596888;
 }
 
 .footer__copy {
