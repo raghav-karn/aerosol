@@ -599,7 +599,9 @@ img {
 #mobile-message {
   display: none;
 }
-@media only screen and (max-width: 908px) {
+
+/* Target mobile devices but exclude tablets/iPads */
+@media only screen and (max-width: 767px) {
   #mobile-message {
     display: block;
     position: fixed;
@@ -631,5 +633,21 @@ img {
     overflow: hidden;
     position: fixed;
     width: 100%;
+  }
+}
+
+/* iPad specific fix - force hide the mobile message */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #mobile-message {
+    display: none !important;
+  }
+  
+  body > * {
+    display: block !important;
+  }
+  
+  body {
+    overflow: auto !important;
+    position: static !important;
   }
 }
