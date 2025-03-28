@@ -239,17 +239,6 @@ img {
   column-gap: .75rem;
 }
 
-.sponsor__img {
-  width: 90px;
-}
-
-.sponsor__container {
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  row-gap: 5rem;
-  justify-items: center;
-  align-items: center;
-}
-  
 .features__container {
   position: relative;
 }
@@ -290,26 +279,6 @@ img {
   border-radius: 20px;
 }
   
-.case__container {
-  position: relative;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.case__data {
-  padding: 5rem 0 3rem;
-}
-
-.case__img {
-  width: 250px;
-  position: absolute;
-  left: -7rem;
-}
-
-.case__description {
-  margin-bottom: 1.5rem;
-  line-height: 2rem;
-}
-
 .instructions__container {
   position: relative;
   background-color: #647497;
@@ -333,56 +302,6 @@ img {
   right: -11rem;
 }
   
-.products__line {
-  line-height: 4rem;
-}
-
-.products__container {
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5rem 1.5rem;
-  padding-top: 3rem;
-  padding-bottom: 7rem;
-}
-
-.products__card {
-  position: relative;
-  height: 132px;
-  background-color: #9695bb;
-  padding: .75rem;
-  border-radius: .5rem;
-  display: grid;
-}
-
-.products__img {
-  width: 80px;
-  position: absolute;
-  inset: 0;
-  margin-right: auto;
-  margin-left: auto;
-  top: -3rem;
-}
-
-.products__content {
-  align-self: flex-end;
-}
-
-.products__title, 
-.products__price {
-  font-size: .813rem;
-}
-
-.products__price {
-  font-weight: 600;
-}
-
-.products__button {
-  position: absolute;
-  right: .5rem;
-  bottom: .5rem;
-  padding: .4rem;
-  border-radius: .35rem;
-}
-
 .footer {
   background-color: #343144;
 }
@@ -464,33 +383,6 @@ img {
   color: #9d95bb;
 }
 
-.scrollup {
-  position: fixed;
-  right: 1rem;
-  bottom: -20%;
-  display: flex;
-  background-color: #333144;
-  border-radius: .25rem;
-  padding: .45rem;
-  opacity: 9;
-  z-index: 10;
-  transition: .4s;
-}
-
-.scrollup:hover {
-  background-color: #8d8d67;
-  opacity: 1;
-}
-
-.scrollup__icon {
-  color: #f5f5be;
-  font-size: 1.35rem;
-}
-
-.show-scroll {
-  bottom: 5rem;
-}
-
 ::-webkit-scrollbar {
   width: .60rem;
   border-radius: .5rem;
@@ -536,25 +428,6 @@ img {
   .features__img {
     width: 200px;
   }
-  
-  .case__container {
-    grid-template-columns: .6fr 1fr;
-  }
-  
-  .case__img {
-    width: 220px;
-    top: -2rem;
-    left: -9rem;
-  }
-  
-  .case__data {
-    padding: 0;
-  }
-  
-  .products__container {
-    grid-template-columns: 142px;
-    justify-content: center;
-  }
 }  
 
 @media screen and (min-width: 576px) {
@@ -581,21 +454,6 @@ img {
     align-items: center;
   }
   
-  .case__img {
-    position: initial;
-  }
-  
-  .case__data {
-    padding: 0;
-  }
-  
-  .case__container {
-    grid-template-columns: max-content 250px;
-    justify-content: center;
-    align-items: center;
-    column-gap: 2rem;
-  }
-  
   .instructions__img {
     position: initial;
   }
@@ -606,10 +464,6 @@ img {
     align-items: center;
   }
   
-  .products__container {
-    grid-template-columns: repeat(3, 142px);
-    justify-content: center;
-  }
 }
   
 @media screen and (min-width: 767px) {
@@ -662,18 +516,6 @@ img {
     width: 300px;
   }
   
-  .case__container {
-    column-gap: 5rem;
-  }
-  
-  .case__img {
-    width: 300px;
-  }
-  
-  .case__description {
-    margin-bottom: 2rem;
-  }
-  
   .instructions__container {
     grid-template-columns: 250px max-content;
     justify-content: center;
@@ -689,22 +531,7 @@ img {
   .instructions__description {
     margin-bottom: 2rem;
   }
-  
-  .products__container {
-    grid-template-columns: repeat(3, 162px);
-    gap: 6rem 3rem;
-    padding-top: 5rem;
-  }
-  
-  .products__card {
-    height: 152px;
-    padding: .85rem;
-  }
-  
-  .products__img {
-    width: 95px;
-  }
-  
+    
   .footer__container {
     grid-template-columns: .4fr .7fr .7fr 1fr;
   }
@@ -756,10 +583,6 @@ img {
     padding-right: 5rem;
   }
   
-  .sponsor__img {
-    width: 100px;
-  }
-  
   .instructions__img {
     width: 350px;
   }
@@ -770,5 +593,39 @@ img {
   
   .footer__copy {
     margin-top: 9rem;
+  }
+}
+
+#mobile-message {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 9999;
+  color: #3b465e;
+  text-align: center;
+  padding-top: 40vh;
+  font-family: 'Doto', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  background: #637191;
+}
+
+#mobile-message img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 908px) {
+  #mobile-message {
+      display: block;
+  }
+  
+  body > *:not(#mobile-message) {
+      display: none;
   }
 }
