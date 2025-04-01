@@ -2,13 +2,19 @@
 
 ![Aerosol Icon](extension/icon128.png)
 
-**Aerosol** is a Chrome extension that visualizes air pollution in a way everyone understands - cigarettes!
+**Aerosol** is a Chrome extension that visualizes air pollution in a way everyone understands - cigarettes! Download Aerosol now from the Chrome Web Store.
 
 > [!IMPORTANT]
-> Although AQI and Equivalent Cigarettes data gives a wider view, the reliability of data is up to OpenWeatherMap. There may be some degree of discrepancy and error when compared to other sources.
+> Although AQI and Equivalent Cigarettes data gives a wider view, the reliability of data is up to OpenWeatherMap and Aerosol's limited Equivalent Cigarette count algorithm. There may be some degree of discrepancy and error when compared to other sources.
+
+>[!CAUTION]
+> Since Aerosol's results might differ from other sources, kindly take it with a grain of salt. The extension is meant to provide an overview of Air Quality of a particular city to get the gist of it. Aerosol is not meant for any precise measurement of Air Quality Index or Equivalent Cigarettes count.
 
 > [!NOTE]
-> Visit [aerosol.raghavkarn.com](https://aerosol.raghavkarn.com) to learn more about Aerosol.
+> Visit [aerosol.raghavkarn.com](https://aerosol.raghavkarn.com) to learn more about the science behind it and read the instructions on how to install and use Aerosol.
+
+> [!IMPORTANT]
+> To contact us, please reach out to [contact@raghavkarn.com](mailto:contact@raghavkarn.com). For help and support, please reach out to [help@raghavkarn.com](mailto:help@raghavkarn.com). Send us your precious feedback at [feedback@raghavkarn.com] or on the Chrome Web Store.
 
 
 ## 🤔 What's This All About?
