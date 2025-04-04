@@ -31,6 +31,17 @@ Ever wondered how bad the air pollution in your city really is? Air Quality Inde
 - 📊 **Cigarettes counter**: See the equivalent "cigarette count" of the AQI of any city.
 - 🌎 **Global Coverage**: Works with AQI data from basically all the cities. Thanks, OpenWeatherMap API.
 
+## 🔒 Privacy Policy
+
+**Aerosol collects absolutely no user data.** The extension operates with zero browser permissions and is designed with privacy as the highest priority.
+
+- No personally identifiable information is collected
+- No browsing data is accessed or stored
+- No location data is tracked
+- API requests to OpenWeatherMap only include the city name you search for
+
+For full details, please review our comprehensive [Privacy Policy](https://aerosol.raghavkarn.com/privacy-policy).
+
 ## 🚀 Installation
 
 1. Download the latest .zip file from either the Releases, the `<version>.zip` file in the root of [the repo](https://github.com/raghav-karn/aerosol) or use the files in [`/extension`](https://github.com/raghav-karn/aerosol/tree/main/extension) folder of the repo.
@@ -76,6 +87,6 @@ Your feedback and help matters! If you have any feature suggestion or have found
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-Aerosol by [Raghav Karn](https://github.com/raghav-karn).
-- Extension made for [BrowserBuddy](https://browserbuddy.hackclub.com).
-- Website made for [Swirl](https://swirl.hackclub.com).
+Aerosol by [Raghav Karn](https://github.com/raghav-karn)
+- Extension made for [BrowserBuddy](https://browserbuddy.hackclub.com)
+- Website made for [Swirl](https://swirl.hackclub.com)
